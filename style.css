@@ -1,0 +1,11 @@
+
+h1  {
+    color: darkgreen;
+    font: large; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#thirdH1 {
+    color: rgb(3, 180, 3);
+    font-weight: lighter;
+}
