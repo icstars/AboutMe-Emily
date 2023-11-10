@@ -1,11 +1,9 @@
-
-h1  {
-    color: darkgreen;
-    font: large; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+:root {
+    --color-brand-primary:#61b390;
+    --color-brand-contrast:#01352c;
+    --color-brand-dark-green:#01352c;
+    --color-light-green: #bad8b6;
+    --color-background: #e1eacd;
+    --font-body: 'Segoe Ui', Arial, Helvetica, sans-serif;
 }
 
-#thirdH1 {
-    color: rgb(3, 180, 3);
-    font-weight: lighter;
-}
