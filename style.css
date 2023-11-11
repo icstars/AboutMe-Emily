@@ -7,3 +7,78 @@
     --font-body: 'Segoe Ui', Arial, Helvetica, sans-serif;
 }
 
+
+header {
+    padding: 0;
+    margin: 0;
+    background-color: #61b390;
+}
+header h1 {
+    padding-left: 5%;
+    padding-top: 0;
+    padding-bottom: 1%;
+    margin-top: 0;
+    margin-bottom: 5%;
+    background-color: #61b390;
+    font-size: 4em;
+}
+
+h2 {
+    color: #61b390;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-body);
+    background-color: var(--color-background);
+}
+
+h1 {
+    color: var(--color-brand-contrast);
+    }
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+article, aside {
+    display: block;
+    flex-basis: 0;
+    flex-shrink: 1;
+    padding: 0.75rem;
+}
+
+
+article {
+    flex: 2;
+    padding-right: 6em;
+    
+}
+
+aside {
+    flex: 1;
+}
+
+.profile-pic {
+    padding-left: 33%;
+    border-color: #01352c;
+    border-width: ;
+    
+}
+
+
+footer {
+    text-align: center;
+    background-color: #01352c;
+    color: #61b390;
+}  
+
+.lets-connect {
+    display: block;
+    text-align: left;
+    padding-left: 1em;
+    padding-top: 2em;
+}
+
