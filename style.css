@@ -40,7 +40,7 @@ h1 {
 
 main {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 article, aside {
@@ -53,19 +53,19 @@ article, aside {
 
 article {
     flex: 2;
-    padding-right: 6em;
+    padding-left: 3em;
     
 }
+
 
 aside {
     flex: 1;
+    padding-right: 3em;
 }
 
-.profile-pic {
-    padding-left: 33%;
-    border-color: #01352c;
-    border-width: ;
-    
+nav {
+    flex-direction: column;
+    padding-right: 3em;
 }
 
 
