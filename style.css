@@ -63,11 +63,6 @@ aside {
     padding-right: 3em;
 }
 
-nav {
-    flex-direction: column;
-    padding-right: 3em;
-}
-
 
 footer {
     text-align: center;
