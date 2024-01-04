@@ -7,18 +7,39 @@
     --font-body: 'Segoe Ui', Arial, Helvetica, sans-serif;
 }
 
-
 header {
     padding: 0;
     margin: 0;
     background-color: #61b390;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.title-nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensures the container spans the full width */
+    align-items: center; /* Aligns items vertically in the center */
+    
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px; /* Adjust the value as needed */
+}
+
+nav button {
+    margin-left: 10px; /* Adds space between buttons */
+}
+
+
 header h1 {
     padding-left: 5%;
     padding-top: 0;
     padding-bottom: 1%;
     margin-top: 0;
-    margin-bottom: 5%;
     background-color: #61b390;
     font-size: 4em;
 }
@@ -50,7 +71,80 @@ article, aside {
     padding: 0.75rem;
 }
 
+/* Styling of the Form*/
 
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #bad8b6;
+  border-radius: 1em;
+  background-color: #61b390;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+  
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em 'Segoe Ui', Arial, Helvetica, sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #bad8b6;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #01352c;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.buttonForm {
+  /* Align buttons with the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: 0.5em;
+}
+
+.paragraphResponse {
+    color: #01352c;
+    font-size: 1.5em;
+}
 article {
     flex: 2;
     padding-left: 3em;
