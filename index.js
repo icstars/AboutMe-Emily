@@ -23,10 +23,12 @@ grabSubmitBtn.addEventListener("click", (e) => {
     console.log(grabmessageInput.value);
     //paragraph element
     const paragraphElement = document.querySelector(".paragraphResponse")
+    const imageElement = document.getElementById("imageResponse")
     paragraphElement.textContent = `Thank you for your message ${grabFirstNameInput.value} ${grabLastNameInput.value}. I'll be in touch soon!`
     //when LIKE is clicked the paragraph will display
     //It's a pleasure to meet you firstName LastName. I'll be in touch soon!
-    
+    imageElement.src= "thanks.gif"
+    responseImage.style.display = "block";
     console.log(`Thank you for your message ${grabFirstNameInput.value} ${grabLastNameInput.value}. I'll be in touch soon!`)
 
     //clear values
