@@ -24,11 +24,11 @@ grabSubmitBtn.addEventListener("click", (e) => {
     //paragraph element
     const paragraphElement = document.querySelector(".paragraphResponse")
     const imageElement = document.getElementById("imageResponse")
+    
+     //when Send Message is clicked the paragraph will display
     paragraphElement.textContent = `Thank you for your message ${grabFirstNameInput.value} ${grabLastNameInput.value}. I'll be in touch soon!`
-    //when LIKE is clicked the paragraph will display
-    //It's a pleasure to meet you firstName LastName. I'll be in touch soon!
-    imageElement.src= "thanks.gif"
-    responseImage.style.display = "block";
+   
+   
     console.log(`Thank you for your message ${grabFirstNameInput.value} ${grabLastNameInput.value}. I'll be in touch soon!`)
 
     //clear values
@@ -36,6 +36,10 @@ grabSubmitBtn.addEventListener("click", (e) => {
     grabLastNameInput.value = "";
     grabemailInput.value = "";
     grabmessageInput.value = "";
+
+    //Displays the image after values are cleared
+    imageElement.src= "thanks.gif" //sets the source
+    imageElement.style.display = "block"; //makes the image visible
 })
 
 
