@@ -38,7 +38,7 @@ grabSubmitBtn.addEventListener("click", (e) => {
     grabmessageInput.value = "";
 
     //Displays the image after values are cleared
-    imageElement.src= "thanks.gif" //sets the source
+    imageElement.src= "images/thanks.gif" //sets the source
     imageElement.style.display = "block"; //makes the image visible
 })
 
