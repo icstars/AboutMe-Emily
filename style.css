@@ -87,6 +87,7 @@ form {
   border: 1px solid #bad8b6;
   border-radius: 1em;
   background-color: #61b390;
+  color:#01352c;
 }
 
 ul {
@@ -138,12 +139,16 @@ textarea {
 .buttonForm {
   /* Align buttons with the text fields */
   padding-left: 90px; /* same size as the label elements */
+  
 }
 
 button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
   margin-left: 0.5em;
+  background-color: #01352c;
+  color: #bad8b6;
+  border-radius: 8px;
 }
 
 .paragraphResponse {
